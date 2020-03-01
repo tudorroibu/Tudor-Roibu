@@ -91,7 +91,7 @@ ul li.active a{
 	float: left;
 	margin: 0 10px;
 }
-.btn{
+.btn1{
 	width: 100%;
 	background: none;
 	border: 2px solid #1E90FF;
@@ -100,4 +100,38 @@ ul li.active a{
 	font-size: 18px;
 	cursor: pointer;
 	margin: 12px 0;
+}
+body
+{
+	overflow-x: hidden;
+	font-family: 'Lato', sans-serif;
+	color: #505962;
+}
+.caption{
+	width: 100%;
+	max-width: 100%;
+	position: absolute;
+	top: 40%;
+	z-index: 1;
+	color: white;
+}
+.caption h1{
+	font-size: 3.8rem;
+	font-weight: 700;
+	letter-spacing: .3rem;
+	text-shadow: .1rem .1rem .8rem black;
+	padding-bottom: 1rem;
+}
+.caption h3{
+	font-size: 2rem;
+	text-shadow: .1rem .1rem .5rem black;
+	padding-bottom: 1.6rem
+}
+.btn-lg{
+	border-width: medium;
+	border-radius: 0;
+	padding: .6rem 1.3rem;
+	font-size: 1.1rem;
+	border: 1px solid transparent;
+
 }
